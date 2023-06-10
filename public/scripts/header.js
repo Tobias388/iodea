@@ -1,0 +1,1 @@
+"use strict";window.addEventListener("scroll",(function(){document.querySelector(".header").classList.toggle("active",window.scrollY>250,"px")}));var menu_btn=document.querySelector(".menu_btn");menu_btn.onclick=function(){menu_btn.classList.toggle("active"),header.classList.toggle("transform")};
